@@ -1,0 +1,52 @@
+  body {
+    background-color: lavender;
+  }
+  h1{
+    color: #34626c;
+  }
+
+  h3{
+      color: #5c6e91;
+    }
+
+  a{
+    color:#5c6e91;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: silver;
+  }
+
+  hr{
+    height: 20px;
+    /* top | right | bottom | left */
+    border-style: none none dotted none;
+    border-bottom-color: silver;
+    border-width: thick;
+    border-bottom-width: 7px;
+    width: 10%
+  }
+  table, th, td {
+  border: 0 solid gray;
+  padding: 5px;
+  }
+  table {
+  border-spacing: 5px;
+  }
+  /* classes
+  */
+  .photo {
+    border: 2px solid silver;
+  }
+
+  .copyright-text{
+    text-align: center;
+  }
+/* Syntax in css
+
+selector{
+property: value;
+}
+
+*/
