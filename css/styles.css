@@ -164,3 +164,93 @@ h3{
 .copyright-text{
   color: silver;
 }
+
+/*     *******MEDIA QUERIES********* */
+/*media queries for responsive design*/
+
+/*mobile sizes*/
+@media (min-width: 400px){
+  hr{
+    border-bottom-width: 20px;
+  }
+  h1{
+    font-size: 10rem;
+  }
+  h2{
+    font-size: 5rem;
+  }
+  h3{
+    font-size: 4rem;
+  }
+  body{
+    font-size: 3rem;
+  }
+  a{
+    font-size: 3rem;
+  }
+  .btn{
+    font-size: 40px;
+  }
+  .footer-link{
+    font-size: 3rem;
+  }
+}
+
+
+/*tablet sizes*/
+@media (min-width: 900px){
+  hr{
+    border-bottom-width: 10px;
+  }
+  h1{
+    font-size: 5rem;
+  }
+  h2{
+    font-size: 2.5rem;
+  }
+  h3{
+    font-size: 2rem;
+  }
+  body{
+    font-size: 1.5rem;
+  }
+  a{
+    font-size: 1.5rem;
+  }
+  .btn{
+    font-size: 20px;
+  }
+  .footer-link{
+    font-size: 1.5rem;
+  }
+}
+
+
+/*big screen sizes*/
+@media (min-width: 1900px){
+  hr{
+    border-bottom-width: 50px;
+  }
+  h1{
+    font-size: 15rem;
+  }
+  h2{
+    font-size: 5rem;
+  }
+  h3{
+    font-size: 4rem;
+  }
+  body{
+    font-size: 3rem;
+  }
+  a{
+    font-size: 3rem;
+  }
+  .btn{
+    font-size: 60px;
+  }
+  .footer-link{
+    font-size: 4.5rem;
+  }
+}
+
