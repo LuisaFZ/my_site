@@ -7,13 +7,46 @@
   <link rel="stylesheet" href=".\css\styles.css">
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link href="https://fonts.googleapis.com/css2?family=Caudex&family=Dancing+Script&family=Space+Mono&display=swap" rel="stylesheet">
+  <style>
+    [data-tooltip] {
+      position: relative;
+      cursor: default;
+    }
+    [data-tooltip]::after{
+      position: absolute;
+      width: 130px;
+      right: calc(50% - 90%);
+      bottom: 105%;
+      text-align: center;
+      box-sizing: border-box;
+
+      content:attr(data-tooltip);
+      color: black;
+      background: silver;
+      padding: 8px;
+      border-radius: 10px;
+      font-size: 0.6em;
+
+      visibility: hidden;
+      opacity: 0;
+      transform: translateY(10px);
+      transition: opacity 0.3s, transform 0.2s;
+    }
+    [data-tooltip]:hover::after{
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+  </style>
 </head>
 
 <body>
   <div class="top-container">
     <img class="top-cloud" src="images\cloud.png" alt="cloud-img">
     <h1>I'm Luisa</h1>
-    <h3>a <span class="geo">geo</span>-programmer.</h3>
+    <br>
+    <h3>a geo-<span class="programmer" data-tooltip="in the making">programmer</span></h3>
+
     <img class="bottom-cloud" src="images\cloud.png" alt="cloud-img">
     <img src="images\mountain.png" alt="mountain-img">
     <div class="middle-container">
