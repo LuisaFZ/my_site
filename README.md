@@ -1,2 +1,1 @@
-# my_site
-# simple website about me
+# my_site: simple personal website
