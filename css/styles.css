@@ -62,7 +62,7 @@ h3{
 
 .top-cloud{
   position: relative;
-  left: 200px;
+  left: 20vw;
 }
 
 .programmer {
@@ -104,6 +104,9 @@ h3{
 
 .photo {
   border: 2px solid silver;
+  width: 60vw;
+  height: auto;
+  border-radius: 50%;
 }
 
 .middle-container{
