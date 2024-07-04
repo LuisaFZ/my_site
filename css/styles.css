@@ -57,7 +57,7 @@ h3{
   position: absolute;
   top: 0;
   left: 0;
-  padding-top: 50px;
+  padding: 7vw;
 }
 
 .top-cloud{
@@ -84,7 +84,7 @@ h3{
 
   /* move to right */
   left:100%;
-  margin-left:15px; /* and add a small left margin */
+  margin-left:5vw; /* and add a small left margin */
 
   /* basic styles */
   width:200px;
