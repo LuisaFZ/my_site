@@ -12,10 +12,12 @@
   a{
     color:#5c6e91;
     text-decoration: none;
+    font-size: min(2vw, 30px);
   }
 
   a:hover{
     color: silver;
+    font-size: min(2vw, 30px);
   }
 
   hr{
