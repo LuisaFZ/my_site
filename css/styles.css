@@ -6,7 +6,7 @@ hr{
   border-width: thick;
   border-bottom-width: 7px;
   padding: 10px 0 10px 0;
-  width: 100%
+  width: 10%
 }
 a{
   font-size: 1rem;
@@ -57,12 +57,12 @@ h3{
   position: absolute;
   top: 0;
   left: 0;
-  padding: 7vw;
+  padding-top: 50px;
 }
 
 .top-cloud{
   position: relative;
-  left: 20vw;
+  left: 200px;
 }
 
 .programmer {
@@ -84,7 +84,7 @@ h3{
 
   /* move to right */
   left:100%;
-  margin-left:5vw; /* and add a small left margin */
+  margin-left:15px; /* and add a small left margin */
 
   /* basic styles */
   width:200px;
@@ -104,9 +104,6 @@ h3{
 
 .photo {
   border: 2px solid silver;
-  width: 60vw;
-  height: auto;
-  border-radius: 50%;
 }
 
 .middle-container{
