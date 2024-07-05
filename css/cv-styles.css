@@ -1,5 +1,6 @@
   body {
     background-color: lavender;
+    font-size: min(2vw, 30px);
   }
   h1{
     color: #34626c;
@@ -36,9 +37,11 @@
   table, th, td {
   border: 0 solid gray;
   padding: 5px;
+  font-size: min(2vw, 30px);
   }
   table {
   border-spacing: 5px;
+  font-size: min(2vw, 30px);
   }
   /* classes
   */
@@ -49,6 +52,7 @@
 
   .copyright-text{
     text-align: center;
+    font-size: min(2vw, 30px);
   }
 /* Syntax in css
 
