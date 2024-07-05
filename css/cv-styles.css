@@ -20,6 +20,10 @@
     font-size: min(2vw, 30px);
   }
 
+  p{
+    font-size: min(2vw, 30px);
+  }
+
   hr{
     height: 20px;
     /* top | right | bottom | left */
