@@ -1,6 +1,5 @@
   body {
     background-color: lavender;
-    font-size: min(2vw, 30px);
   }
   h1{
     color: #34626c;
@@ -13,16 +12,10 @@
   a{
     color:#5c6e91;
     text-decoration: none;
-    font-size: min(2vw, 30px);
   }
 
   a:hover{
     color: silver;
-    font-size: min(2vw, 30px);
-  }
-
-  p{
-    font-size: min(2vw, 30px);
   }
 
   hr{
@@ -37,11 +30,9 @@
   table, th, td {
   border: 0 solid gray;
   padding: 5px;
-  font-size: min(2vw, 30px);
   }
   table {
   border-spacing: 5px;
-  font-size: min(2vw, 30px);
   }
   /* classes
   */
@@ -52,7 +43,6 @@
 
   .copyright-text{
     text-align: center;
-    font-size: min(2vw, 30px);
   }
 /* Syntax in css
 
